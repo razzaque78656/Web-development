@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Sheet</title>
+    <style>
+     body {
+        background-color: aliceblue;
+        
+     }
+     h1 {
+        font-size: 30                                                                                       px;
+     }
+    </style>
+</head>
+<body>
+    <h1>Grade Sheet</h1>
+    <Script>
+        document.write("<table border='2'><tr><td>Roll NUmber</td><td>Name</td><td>F/name</td><td>Class</td><td>Percentage</td><td>Commnet</td></tr>","<tr><td>122</td><td>Khalid</td><td>Ayaz</td><td>Matric</td><td>55</td><td>");
+        var per = 55;
+        if (per >= 80 && per <= 95){
+            document.write('<h1 align="center">',"A1+", '</h2>');
+        }else if (per >= 70 && per <= 79){
+            document.write('<h1 align="center">',"A",'</h2>' );
+        }else if (per >= 45 &&  per <= 69){
+            document.write('<h1 align="center">',"B", '</h2>');
+        }else if (per >=33 && per <= 44){
+            document.write('<h1 align="center">',"You are fail", '</h2>');
+        }else {
+            document.write("Enter Vaild number",'</td></tr>');
+        }
+        document.write("<tr><td>1223<td><td>hussain</td><td>Shamshad ali</td><td>Matric</td><td>70</td><td>");
+            var per = 70;
+        if (per >= 80 && per <= 95){
+            document.write('<h1 align="center">',"A1+", '</h2>');
+        }else if (per >= 70 && per <= 79){
+            document.write('<h1 align="center">',"A",'</h2>' );
+        }else if (per >= 45 &&  per <= 69){
+            document.write('<h1 align="center">',"B", '</h2>');
+        }else if (per >=33 && per <= 44){
+            document.write('<h1 align="center">',"You are fail", '</h2>');
+        }else {
+            document.write("Enter Vaild number",'</td></tr></table>');
+        }
+        document.write
+    </Script>
+</body>
+</html>
